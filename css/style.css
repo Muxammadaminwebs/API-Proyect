@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 30px;
+    align-items: flex-start;
+
+}
+.navbar-brand{
+    width: 150px;
+}
+input{
+    padding: 14px 20px;
+    width: 600px;
+    font-size: 15px;
+}
+.search-btn{
+    padding: 14px 20px;
+    font-size: 18px;
+    background-color: #05A081;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.display-imges {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    grid-gap: 75px;
+    margin: 50px auto auto 150px;
+}
+.display-imges .image {
+      width: 450px ;
+      height: 480px;
+      border-radius: 10px;
+      object-fit: cover;
+      cursor: pointer;
+      overflow: hidden;
+}
+img{
+    width: 450px;
+    height: 480px;
+    border-radius: 10px;
+}
+.caption {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui;
+}
